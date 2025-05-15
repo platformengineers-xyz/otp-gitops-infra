@@ -106,7 +106,7 @@ rules:
       - internal.open-cluster-management.io
     resources:
       - managedclusterinfos
-      - mangedclusterinfo
+      - managedclusterinfo
     verbs:
       - update
       - create
