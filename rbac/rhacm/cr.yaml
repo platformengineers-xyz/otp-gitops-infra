@@ -293,3 +293,14 @@ rules:
       - update
       - delete
       - patch
+  - apiGroups:
+      - hypershift.openshift.io 
+    resources:
+      - nodepools
+      - hostedclusters
+    verbs:
+      - create
+      - read
+      - update
+      - delete
+      - patch
